@@ -6,4 +6,6 @@ defmodule FooLib do
   end
 
   def wrapper(x, y), do: Foo.foo(x, String.to_existing_atom(y))
+
+  def say_ok, do: :ok
 end
